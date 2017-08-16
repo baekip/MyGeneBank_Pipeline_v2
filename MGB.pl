@@ -80,7 +80,7 @@ my $project_id = $info{project_id};
 my $sh_path = sprintf ('%s/sh_log_file', $result_path);
 my $flag_orig_path = sprintf ('%s/flag_file/', $result_path);
 #my @sample_list = split /\,/, $sample_id;
-my $log_path="$project_path/log";
+my $log_path="$project_path/log/";
 make_dir($log_path);
 my $log_file="$log_path/$sample_id\.log.file";
 checkDir ($script_path);
