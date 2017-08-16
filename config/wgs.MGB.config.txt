@@ -1,20 +1,24 @@
 # MGB WGS configure file
 ################################################################################################################
 #program
+java_1_7          =   /usr/bin/java
 fastqc            =   /TBI/Share/HumanTeam/BioTools/fastqc/FastQC_v0.10.1/fastqc 
 isaac             =   /TBI/Tools/Isaac3/iSSAC-build/bin/isaac-align
-qualimap          =   /TBI/Tools/Qualimap/qualimap_v2.2/qualimap
-gvcftools         =   /TBI/Tools/gvcftools/bin/extract_variants
 starling          =   /TBI/Tools/isaac_variant_caller/bin/configureWorkflow.pl 
-cnvkit            =   cnkit.py
-java_1_7          =   /usr/bin/java
+#qualimap          =   /TBI/Tools/Qualimap/qualimap_v2.2/qualimap
+#delly             =   /TBI/Tools/delly/delly/src/delly 
+#cnvkit            =   cnkit.py
+#cnvkit            =   /usr/local/bin/cnvkit.py
+################################################################################################################
+
+# vcf requirement configure file
+################################################################################################################
+gvcftools         =   /TBI/Tools/gvcftools/bin/extract_variants
 snpeff            =   /TBI/Share/HumanTeam/BioTools/snpeff/snpEff_v4.2/snpEff.jar
 snpsift           =   /TBI/Share/HumanTeam/BioTools/snpeff/snpEff_v4.2/SnpSift.jar
 snpeff_config     =   /TBI/Share/HumanTeam/BioTools/snpeff/snpEff_v4.2/snpEff.config 
 vcf_per_line      =   /TBI/Share/HumanTeam/BioTools/snpeff/snpEff_v4.2/scripts/vcfEffOnePerLine.pl
-cnvkit            =   /usr/local/bin/cnvkit.py
 bcftools          =   /TBI/Tools/bcftools/bcftools-1.2/bcftools
-delly             =   /TBI/Tools/delly/delly/src/delly 
 bedtools          =   /TBI/Tools/bedtools/current/bin/bedtools
 ################################################################################################################
 
@@ -35,22 +39,22 @@ knih_db           =   /TBI/Share/HumanTeam/BioResource/DBs/KNIH/KNIH.BOTH.sort.o
 cosmic_db         =   /TBI/Share/HumanTeam/BioResource/DBs/COSMICDB/v71/CosmicCodingMuts.anno.vcf.gz 
 KRG1100_db        =   /TBI/Share/HumanTeam/BioResource/DBs/KRGDB/KRG1100_common_variants/total_variants1100_cmm_sort.vcf
 KRG1100_rare_db   =   /TBI/Share/HumanTeam/BioResource/DBs/KRGDB/KRG1100_rare_variants/variants1100_rare_sort.vcf
-MGB_gene_bed      =   /TBI/Share/HumanTeam/BioPipeline/MyGeneBank_v1/resource/MGB.Gene31.5kb.bed
-MGB_gene_list     =   /TBI/Share/HumanTeam/BioPipeline/MyGeneBank_v1/resource/cancerInside.31gene.list
-MGB_HG_list_v2    =   /TBI/Share/HumanTeam/BioPipeline/MyGeneBank_v1/resource/HelloGene_Novel_v2.0.txt
-MGB_HG_list_v3    =   /TBI/Share/HumanTeam/BioPipeline/MyGeneBank_v1/resource/HelloGene_Novel_v3.0.txt
-MGB_GS_list       =   /TBI/Share/HumanTeam/BioPipeline/MyGeneBank_v1/resource/GeneStyle_Direct.txt
-MGB_clinvar_list  =   /TBI/Share/HumanTeam/BioPipeline/MyGeneBank_v1/resource/rs.test.list
+MGB_gene_bed      =   /TBI/Share/HumanTeam/BioPipeline/MyGeneBank_v2/resource/MGB.Gene31.5kb.bed
+MGB_gene_list     =   /TBI/Share/HumanTeam/BioPipeline/MyGeneBank_v2/resource/cancerInside.31gene.list
+MGB_HG_list_v2    =   /TBI/Share/HumanTeam/BioPipeline/MyGeneBank_v2/resource/HelloGene_Novel_v2.0.txt
+MGB_HG_list_v3    =   /TBI/Share/HumanTeam/BioPipeline/MyGeneBank_v2/resource/HelloGene_Novel_v3.0.txt
+MGB_GS_list       =   /TBI/Share/HumanTeam/BioPipeline/MyGeneBank_v2/resource/GeneStyle_Direct.txt
+MGB_clinvar_list  =   /TBI/Share/HumanTeam/BioPipeline/MyGeneBank_v2/resource/rs.test.list
 snpeff_db         =   hg19 
 access_bed        =   /TBI/Share/HumanTeam/BioTools/cnvkit/data/access-10kb.hg19.bed
 refFlat_txt       =   /TBI/Share/HumanTeam/BioTools/cnvkit/data/refFlat.txt
 excludeTemplates  =   /TBI/Tools/delly/delly/excludeTemplates/human.hg19.excl.tsv
 #################################################################################################################
-dev_path          =    /TBI/Share/HumanTeam/BioPipeline/MyGeneBank_v1/
-project_path      =    /TBI/Share/HumanTeam/BioProject/MGB_Test/ 
-rawdata_path      =    /TBI/Share/HumanTeam/BioProject/MGB_Test/rawdata 
-result_path       =    /TBI/Share/HumanTeam/BioProject/MGB_Test/result 
-report_path       =    /TBI/Share/HumanTeam/BioProject/MGB_Test/report 
+dev_path          =    /TBI/Share/HumanTeam/BioPipeline/MyGeneBank_v2/
+project_path      =    /TBI/Share/HumanTeam/BioProject/MGB_V2_Test/ 
+rawdata_path      =    /TBI/Share/HumanTeam/BioProject/MGB_V2_Test/rawdata 
+result_path       =    /TBI/Share/HumanTeam/BioProject/MGB_V2_Test/result 
+report_path       =    /TBI/Share/HumanTeam/BioProject/MGB_V2_Test/report 
 read_length       =    150
 sample_id         =    Sample01,Sample02,Sample03 
 project_id        =    MGB_Test 

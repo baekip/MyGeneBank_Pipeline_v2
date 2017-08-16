@@ -7,7 +7,7 @@
 =head1 Version
     
     Author: baekip (inpyo.baek@theragenetex.com)
-    Version: 0.1
+    Version: 2.1
     Date: 2017-06-13 Tue
 
 =head1 Usage
@@ -47,8 +47,8 @@ use lib dirname(abs_path $0) . '/library';
 use Utils qw (read_config checkFile make_dir checkDir trim);
 use Queue qw (CheckQsub pipe_arrange program_run);
 
-my $config = '/TBI/Share/HumanTeam/BioPipeline/MyGeneBank_v1/config/wgs.MGB.config.txt';
-my $pipeline = '/TBI/Share/HumanTeam/BioPipeline/MyGeneBank_v1/config/wgs.MGB.pipeline.txt';
+my $config = '/TBI/Share/HumanTeam/BioPipeline/MyGeneBank_v2/config/wgs.MGB.config.txt';
+my $pipeline = '/TBI/Share/HumanTeam/BioPipeline/MyGeneBank_v2/config/wgs.MGB.pipeline.txt';
 my $help;
 GetOptions (
 #    'config=s' => \$config,
@@ -206,7 +206,7 @@ foreach my $row (@pipe_list){
     my $flag_path = sprintf ("%s/%s/", $flag_orig_path, $pipe_hash{$order});
     make_dir($flag_path);
     my $flag_file = sprintf ("%s/%s_flag.txt", $flag_path, $pipe_hash{$order});
-    open my $fh_flag, '>', $flag_file or die;
+    open my $fh_flag, '>>', $flag_file or die;
     if ($cluster eq 'sample'){ 
         foreach my $sample (@run_sample){
             if ($type eq 'private'){
