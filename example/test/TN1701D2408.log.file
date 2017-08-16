@@ -1,0 +1,537 @@
+Mon May 22 11:26:23 KST 2017
+00:00:00	SnpSift version 4.2 (build 2015-12-05), by Pablo Cingolani
+00:00:00	Command: 'ANNOTATE'
+00:00:00	Reading configuration file 'snpEff.config'
+00:00:00	SnpSift version 4.2 (build 2015-12-05), by Pablo Cingolani
+00:00:00	Command: 'ANNOTATE'
+00:00:00	Reading configuration file 'snpEff.config'
+00:00:00	SnpEff version SnpEff 4.2 (build 2015-12-05), by Pablo Cingolani
+00:00:00	Command: 'ann'
+00:00:00	SnpSift version 4.2 (build 2015-12-05), by Pablo Cingolani
+00:00:00	Command: 'VARTYPE'
+00:00:00	Annotating variants type entries from: '-'
+00:00:00	SnpSift version 4.2 (build 2015-12-05), by Pablo Cingolani
+00:00:00	Command: 'ANNOTATE'
+00:00:00	Reading configuration file 'snpEff.config'
+00:00:00	Reading configuration file '/TBI/Share/HumanTeam/BioTools/snpeff/snpEff_v4.2/snpEff.config'. Genome: 'hg19'
+00:00:00	Reading config file: /TBI/Share/HumanTeam/BioTools/snpeff/snpEff_v4.2/snpEff.config
+00:00:00	SnpSift version 4.2 (build 2015-12-05), by Pablo Cingolani
+00:00:00	Command: 'ANNOTATE'
+00:00:00	Reading configuration file 'snpEff.config'
+00:00:00	SnpSift version 4.2 (build 2015-12-05), by Pablo Cingolani
+00:00:00	Command: 'ANNOTATE'
+00:00:00	Reading configuration file 'snpEff.config'
+00:00:00	SnpSift version 4.2 (build 2015-12-05), by Pablo Cingolani
+00:00:00	Command: 'DBNSFP'
+00:00:00	Reading configuration file 'snpEff.config'
+00:00:00	SnpSift version 4.2 (build 2015-12-05), by Pablo Cingolani
+00:00:00	Command: 'ANNOTATE'
+00:00:00	Reading configuration file 'snpEff.config'
+00:00:00	SnpSift version 4.2 (build 2015-12-05), by Pablo Cingolani
+00:00:00	Command: 'GWASCAT'
+00:00:00	Reading configuration file 'snpEff.config'
+00:00:01	done
+00:00:01	Annotating entries from: 'null'
+00:00:01	Opening VCF input 'STDIN'
+00:00:01	Annotating
+	Input file    : '-'
+	Database file : '/TBI/Share/HumanTeam/BioResource/DBs/KRGDB/KRG1100_common_variants/total_variants1100_cmm_sort.vcf'
+00:00:01	Annotating method: SORTED_VCF
+00:00:01	Checking index file '/TBI/Share/HumanTeam/BioResource/DBs/KRGDB/KRG1100_common_variants/total_variants1100_cmm_sort.vcf.sidx'
+00:00:01	Loading index file '/TBI/Share/HumanTeam/BioResource/DBs/KRGDB/KRG1100_common_variants/total_variants1100_cmm_sort.vcf.sidx'
+00:00:01		Reading index for chromosome '1' (index size: 1823 )
+00:00:01		Reading index for chromosome '10' (index size: 1072 )
+00:00:01		Reading index for chromosome '11' (index size: 691 )
+00:00:01		Reading index for chromosome '12' (index size: 1098 )
+00:00:01		Reading index for chromosome '13' (index size: 936 )
+00:00:01		Reading index for chromosome '14' (index size: 1072 )
+00:00:01		Reading index for chromosome '15' (index size: 805 )
+00:00:01		Reading index for chromosome '16' (index size: 723 )
+00:00:01		Reading index for chromosome '17' (index size: 1114 )
+00:00:01		Reading index for chromosome '18' (index size: 734 )
+00:00:01		Reading index for chromosome '19' (index size: 526 )
+00:00:01		Reading index for chromosome '2' (index size: 1874 )
+00:00:01	done
+00:00:01	Annotating entries from: 'null'
+00:00:01	Opening VCF input 'STDIN'
+00:00:01		Reading index for chromosome '20' (index size: 431 )
+00:00:01		Reading index for chromosome '21' (index size: 404 )
+00:00:01		Reading index for chromosome '22' (index size: 350 )
+00:00:01		Reading index for chromosome '3' (index size: 1782 )
+00:00:01	Annotating
+	Input file    : '-'
+	Database file : '/TBI/Share/HumanTeam/BioResource/DBs/KRGDB/KRG1100_rare_variants/variants1100_rare_sort.vcf'
+00:00:01	Annotating method: SORTED_VCF
+00:00:01	Checking index file '/TBI/Share/HumanTeam/BioResource/DBs/KRGDB/KRG1100_rare_variants/variants1100_rare_sort.vcf.sidx'
+00:00:01	Loading index file '/TBI/Share/HumanTeam/BioResource/DBs/KRGDB/KRG1100_rare_variants/variants1100_rare_sort.vcf.sidx'
+00:00:01		Reading index for chromosome '4' (index size: 1630 )
+00:00:01		Reading index for chromosome '1' (index size: 63 )
+00:00:01		Reading index for chromosome '10' (index size: 31 )
+00:00:01		Reading index for chromosome '11' (index size: 31 )
+00:00:01		Reading index for chromosome '12' (index size: 31 )
+00:00:01		Reading index for chromosome '13' (index size: 31 )
+00:00:01		Reading index for chromosome '5' (index size: 1834 )
+00:00:01		Reading index for chromosome '14' (index size: 31 )
+00:00:01		Reading index for chromosome '15' (index size: 31 )
+00:00:01		Reading index for chromosome '16' (index size: 31 )
+00:00:01		Reading index for chromosome '17' (index size: 15 )
+00:00:01		Reading index for chromosome '18' (index size: 15 )
+00:00:01		Reading index for chromosome '19' (index size: 15 )
+00:00:01		Reading index for chromosome '2' (index size: 63 )
+00:00:01		Reading index for chromosome '20' (index size: 15 )
+00:00:01		Reading index for chromosome '21' (index size: 15 )
+00:00:01		Reading index for chromosome '22' (index size: 15 )
+00:00:01		Reading index for chromosome '3' (index size: 63 )
+00:00:01		Reading index for chromosome '6' (index size: 2191 )
+00:00:01		Reading index for chromosome '4' (index size: 63 )
+00:00:01		Reading index for chromosome '5' (index size: 49 )
+00:00:01		Reading index for chromosome '6' (index size: 31 )
+00:00:01		Reading index for chromosome '7' (index size: 31 )
+00:00:01		Reading index for chromosome '8' (index size: 53 )
+00:00:01		Reading index for chromosome '9' (index size: 31 )
+00:00:01		Reading index for chromosome 'M' (index size: 1 )
+00:00:01		Reading index for chromosome 'X' (index size: 29 )
+00:00:01		Reading index for chromosome 'Y' (index size: 1 )
+00:00:01	done
+00:00:01		Reading index for chromosome '7' (index size: 1735 )
+00:00:01	Annotating
+	Input file    : '-'
+	Database file : '/TBI/Share/HumanTeam/BioTools/snpeff/snpEff_v4.2/./db/GRCh37/gwasCatalog/gwascatalog.txt'
+00:00:01	Opening VCF input 'STDIN'
+00:00:01	done
+00:00:01	Annotating entries from: '-'
+00:00:01	Opening VCF input 'STDIN'
+00:00:01		Reading index for chromosome '8' (index size: 921 )
+00:00:01		Reading index for chromosome '9' (index size: 1009 )
+00:00:01	done
+00:00:01	Annotating entries from: '-'
+00:00:01	Opening VCF input 'STDIN'
+00:00:01	Annotating
+	Input file    : '-'
+	Database file : '/TBI/Share/HumanTeam/BioTools/snpeff/snpEff_v4.2/./db/GRCh37/dbSnp/00-All.vcf.gz'
+00:00:01	Annotating method: TABIX
+00:00:01		Reading index for chromosome 'M' (index size: 1 )
+00:00:01		Reading index for chromosome 'X' (index size: 826 )
+00:00:01	Annotating
+	Input file    : '-'
+	Database file : '/TBI/Share/HumanTeam/BioTools/snpeff/snpEff_v4.2/./db/GRCh37/clinvar/clinvar.vcf.gz'
+00:00:01	Annotating method: TABIX
+00:00:01	Loading database: '/TBI/Share/HumanTeam/BioTools/snpeff/snpEff_v4.2/./db/GRCh37/gwasCatalog/gwascatalog.txt'
+00:00:01	done
+00:00:01	Annotating
+	Input file    : '-'
+	Database file : '/TBI/Share/HumanTeam/BioTools/snpeff/snpEff_v4.2/./db/GRCh37/dbNSFP/dbNSFP2.8.txt.gz'
+00:00:01		Reading index for chromosome 'Y' (index size: 15 )
+00:00:01	done
+00:00:01	Annotating entries from: '-'
+00:00:01	Opening VCF input 'STDIN'
+00:00:01	Annotating
+	Input file    : '-'
+	Database file : '/TBI/Share/HumanTeam/BioResource/DBs/COSMICDB/v71/CosmicCodingMuts.anno.vcf.gz'
+00:00:01	Annotating method: TABIX
+00:00:01	Loading data types from file '/TBI/Share/HumanTeam/BioTools/snpeff/snpEff_v4.2/./db/GRCh37/dbNSFP/dbNSFP2.8.txt.gz.data_types'
+00:00:01	Opening database file and loading index
+00:00:01	done
+00:00:01	Annotating entries from: 'null'
+00:00:01	Opening VCF input 'STDIN'
+00:00:01	Annotating
+	Input file    : '-'
+	Database file : '/TBI/Share/HumanTeam/BioResource/DBs/EXAC/release0.3/ExAC.r0.3.sites.vep.header.vcf.gz'
+00:00:01	Annotating method: TABIX
+00:00:02	done
+00:00:02	Reading database for genome version 'hg19' from file '/TBI/Share/HumanTeam/BioTools/snpeff/snpEff_v4.2/./data/hg19/snpEffectPredictor.bin' (this might take a while)
+00:00:02	Database fields:
+	'chr'
+	'pos(1-coor)'
+	'ref'
+	'alt'
+	'aaref'
+	'aaalt'
+	'rs_dbSNP141'
+	'hg18_pos(1-coor)'
+	'hg38_chr'
+	'hg38_pos'
+	'genename'
+	'Uniprot_acc'
+	'Uniprot_id'
+	'Uniprot_aapos'
+	'Interpro_domain'
+	'cds_strand'
+	'refcodon'
+	'SLR_test_statistic'
+	'codonpos'
+	'fold-degenerate'
+	'Ancestral_allele'
+	'Ensembl_geneid'
+	'Ensembl_transcriptid'
+	'aapos'
+	'aapos_SIFT'
+	'aapos_FATHMM'
+	'SIFT_score'
+	'SIFT_converted_rankscore'
+	'SIFT_pred'
+	'Polyphen2_HDIV_score'
+	'Polyphen2_HDIV_rankscore'
+	'Polyphen2_HDIV_pred'
+	'Polyphen2_HVAR_score'
+	'Polyphen2_HVAR_rankscore'
+	'Polyphen2_HVAR_pred'
+	'LRT_score'
+	'LRT_converted_rankscore'
+	'LRT_pred'
+	'MutationTaster_score'
+	'MutationTaster_converted_rankscore'
+	'MutationTaster_pred'
+	'MutationAssessor_score'
+	'MutationAssessor_rankscore'
+	'MutationAssessor_pred'
+	'FATHMM_score'
+	'FATHMM_rankscore'
+	'FATHMM_pred'
+	'MetaSVM_score'
+	'MetaSVM_rankscore'
+	'MetaSVM_pred'
+	'MetaLR_score'
+	'MetaLR_rankscore'
+	'MetaLR_pred'
+	'Reliability_index'
+	'VEST3_score'
+	'VEST3_rankscore'
+	'CADD_raw'
+	'CADD_raw_rankscore'
+	'CADD_phred'
+	'GERP++_NR'
+	'GERP++_RS'
+	'GERP++_RS_rankscore'
+	'phyloP46way_primate'
+	'phyloP46way_primate_rankscore'
+	'phyloP46way_placental'
+	'phyloP46way_placental_rankscore'
+	'phyloP100way_vertebrate'
+	'phyloP100way_vertebrate_rankscore'
+	'phastCons46way_primate'
+	'phastCons46way_primate_rankscore'
+	'phastCons46way_placental'
+	'phastCons46way_placental_rankscore'
+	'phastCons100way_vertebrate'
+	'phastCons100way_vertebrate_rankscore'
+	'SiPhy_29way_pi'
+	'SiPhy_29way_logOdds'
+	'SiPhy_29way_logOdds_rankscore'
+	'LRT_Omega'
+	'UniSNP_ids'
+	'1000Gp1_AC'
+	'1000Gp1_AF'
+	'1000Gp1_AFR_AC'
+	'1000Gp1_AFR_AF'
+	'1000Gp1_EUR_AC'
+	'1000Gp1_EUR_AF'
+	'1000Gp1_AMR_AC'
+	'1000Gp1_AMR_AF'
+	'1000Gp1_ASN_AC'
+	'1000Gp1_ASN_AF'
+	'ESP6500_AA_AF'
+	'ESP6500_EA_AF'
+	'ARIC5606_AA_AC'
+	'ARIC5606_AA_AF'
+	'ARIC5606_EA_AC'
+	'ARIC5606_EA_AF'
+	'clinvar_rs'
+	'clinvar_clnsig'
+	'clinvar_trait'
+	'COSMIC_ID'
+	'COSMIC_CNT'
+00:00:02	Warning: Default field name 'PROVEAN_pred' not found, ignoring
+00:00:02	Warning: Default field name '1000Gp3_AC' not found, ignoring
+00:00:02	Warning: Default field name '1000Gp3_AF' not found, ignoring
+00:00:02	Warning: Default field name '1000Gp3_AFR_AC' not found, ignoring
+00:00:02	Warning: Default field name '1000Gp3_AFR_AF' not found, ignoring
+00:00:02	Warning: Default field name '1000Gp3_EUR_AC' not found, ignoring
+00:00:02	Warning: Default field name '1000Gp3_EUR_AF' not found, ignoring
+00:00:02	Warning: Default field name '1000Gp3_AMR_AC' not found, ignoring
+00:00:02	Warning: Default field name '1000Gp3_AMR_AF' not found, ignoring
+00:00:02	Warning: Default field name '1000Gp3_EAS_AC' not found, ignoring
+00:00:02	Warning: Default field name '1000Gp3_EAS_AF' not found, ignoring
+00:00:02	Warning: Default field name '1000Gp3_SAS_AC' not found, ignoring
+00:00:02	Warning: Default field name '1000Gp3_SAS_AF' not found, ignoring
+00:00:02	Warning: Default field name 'ESP6500_AA_AC' not found, ignoring
+00:00:02	Warning: Default field name 'ESP6500_EA_AC' not found, ignoring
+00:00:02	Warning: Default field name 'ExAC_AC' not found, ignoring
+00:00:02	Warning: Default field name 'ExAC_AF' not found, ignoring
+00:00:02	Warning: Default field name 'ExAC_Adj_AC' not found, ignoring
+00:00:02	Warning: Default field name 'ExAC_Adj_AF' not found, ignoring
+00:00:02	Warning: Default field name 'ExAC_AFR_AC' not found, ignoring
+00:00:02	Warning: Default field name 'ExAC_AFR_AF' not found, ignoring
+00:00:02	Warning: Default field name 'ExAC_AMR_AC' not found, ignoring
+00:00:02	Warning: Default field name 'ExAC_AMR_AF' not found, ignoring
+00:00:02	Warning: Default field name 'ExAC_EAS_AC' not found, ignoring
+00:00:02	Warning: Default field name 'ExAC_EAS_AF' not found, ignoring
+00:00:02	Warning: Default field name 'ExAC_FIN_AC' not found, ignoring
+00:00:02	Warning: Default field name 'ExAC_FIN_AF' not found, ignoring
+00:00:02	Warning: Default field name 'ExAC_NFE_AC' not found, ignoring
+00:00:02	Warning: Default field name 'ExAC_NFE_AF' not found, ignoring
+00:00:02	Warning: Default field name 'ExAC_SAS_AC' not found, ignoring
+00:00:02	Warning: Default field name 'ExAC_SAS_AF' not found, ignoring
+00:00:02	Fields to add:
+			1000Gp1_AF
+			1000Gp1_AFR_AF
+			1000Gp1_AMR_AF
+			1000Gp1_ASN_AF
+			1000Gp1_EUR_AF
+			CADD_phred
+			ESP6500_AA_AF
+			ESP6500_EA_AF
+			FATHMM_pred
+			GERP++_NR
+			GERP++_RS
+			Interpro_domain
+			LRT_pred
+			MetaSVM_pred
+			MutationAssessor_pred
+			MutationTaster_pred
+			Polyphen2_HDIV_pred
+			Polyphen2_HVAR_pred
+			SIFT_pred
+			Uniprot_acc
+			phastCons100way_vertebrate
+00:00:02	Annotating file '-'
+00:00:04	Creating interval tree for GWAS catalog
+00:00:28	done
+00:00:28	Loading Motifs and PWMs
+00:00:28		Loading interactions from : /TBI/Share/HumanTeam/BioTools/snpeff/snpEff_v4.2/./data/hg19/interactions.bin
+00:00:47		Interactions: 1513647 added, 0 skipped.
+00:00:47	Building interval forest
+00:00:52	done.
+00:00:52	Genome stats :
+#-----------------------------------------------
+# Genome name                : 'Homo_sapiens (USCS)'
+# Genome version             : 'hg19'
+# Genome ID                  : 'hg19[0]'
+# Has protein coding info    : true
+# Has Tr. Support Level info : true
+# Genes                      : 28900
+# Protein coding genes       : 20761
+#-----------------------------------------------
+# Transcripts                : 54668
+# Avg. transcripts per gene  : 1.89
+# TSL transcripts            : 0
+#-----------------------------------------------
+# Checked transcripts        : 
+#               AA sequences :  36640 ( 86.72% )
+#              DNA sequences :  46933 ( 85.85% )
+#-----------------------------------------------
+# Protein coding transcripts : 42252
+#              Length errors :     90 ( 0.21% )
+#  STOP codons in CDS errors :     83 ( 0.20% )
+#         START codon errors :    121 ( 0.29% )
+#        STOP codon warnings :     19 ( 0.04% )
+#              UTR sequences :  41579 ( 76.06% )
+#               Total Errors :    254 ( 0.60% )
+#-----------------------------------------------
+# Cds                        : 419731
+# Exons                      : 510146
+# Exons with sequence        : 510146
+# Exons without sequence     : 0
+# Avg. exons per transcript  : 9.33
+#-----------------------------------------------
+# Number of chromosomes      : 93
+# Chromosomes                : Format 'chromo_name size codon_table'
+#		'1'	249250621	Standard
+#		'2'	243199373	Standard
+#		'3'	198022430	Standard
+#		'4'	191154276	Standard
+#		'5'	180915260	Standard
+#		'6'	171115067	Standard
+#		'7'	159138663	Standard
+#		'X'	155270560	Standard
+#		'8'	146364022	Standard
+#		'9'	141213431	Standard
+#		'10'	135534747	Standard
+#		'11'	135006516	Standard
+#		'12'	133851895	Standard
+#		'13'	115169878	Standard
+#		'14'	107349540	Standard
+#		'15'	102531392	Standard
+#		'16'	90354753	Standard
+#		'17'	81195210	Standard
+#		'18'	78077248	Standard
+#		'20'	63025520	Standard
+#		'Y'	59373566	Standard
+#		'19'	59128983	Standard
+#		'22'	51304566	Standard
+#		'21'	48129895	Standard
+#		'6_ssto_hap7'	4928567	Standard
+#		'6_mcf_hap5'	4833398	Standard
+#		'6_cox_hap2'	4795371	Standard
+#		'6_mann_hap4'	4683263	Standard
+#		'6_apd_hap1'	4622290	Standard
+#		'6_qbl_hap6'	4611984	Standard
+#		'6_dbb_hap3'	4610396	Standard
+#		'17_ctg5_hap1'	1680828	Standard
+#		'4_ctg9_hap1'	590426	Standard
+#		'1_gl000192_random'	547496	Standard
+#		'Un_gl000225'	211173	Standard
+#		'4_gl000194_random'	191469	Standard
+#		'4_gl000193_random'	189789	Standard
+#		'9_gl000200_random'	187035	Standard
+#		'Un_gl000222'	186861	Standard
+#		'Un_gl000212'	186858	Standard
+#		'7_gl000195_random'	182896	Standard
+#		'Un_gl000223'	180455	Standard
+#		'Un_gl000224'	179693	Standard
+#		'Un_gl000219'	179198	Standard
+#		'17_gl000205_random'	174588	Standard
+#		'Un_gl000215'	172545	Standard
+#		'Un_gl000216'	172294	Standard
+#		'Un_gl000217'	172149	Standard
+#		'9_gl000199_random'	169874	Standard
+#		'Un_gl000211'	166566	Standard
+#		'Un_gl000213'	164239	Standard
+#		'Un_gl000220'	161802	Standard
+#		'Un_gl000218'	161147	Standard
+#		'19_gl000209_random'	159169	Standard
+#		'Un_gl000221'	155397	Standard
+#		'Un_gl000214'	137718	Standard
+#		'Un_gl000228'	129120	Standard
+#		'Un_gl000227'	128374	Standard
+#		'1_gl000191_random'	106433	Standard
+#		'19_gl000208_random'	92689	Standard
+#		'9_gl000198_random'	90085	Standard
+#		'17_gl000204_random'	81310	Standard
+#		'Un_gl000233'	45941	Standard
+#		'Un_gl000237'	45867	Standard
+#		'Un_gl000230'	43691	Standard
+#		'Un_gl000242'	43523	Standard
+#		'Un_gl000243'	43341	Standard
+#		'Un_gl000241'	42152	Standard
+#		'Un_gl000236'	41934	Standard
+#		'Un_gl000240'	41933	Standard
+#		'17_gl000206_random'	41001	Standard
+#		'Un_gl000232'	40652	Standard
+#		'Un_gl000234'	40531	Standard
+#		'11_gl000202_random'	40103	Standard
+#		'Un_gl000238'	39939	Standard
+#		'Un_gl000244'	39929	Standard
+#		'Un_gl000248'	39786	Standard
+#		'8_gl000196_random'	38914	Standard
+#		'Un_gl000249'	38502	Standard
+#		'Un_gl000246'	38154	Standard
+#		'17_gl000203_random'	37498	Standard
+#		'8_gl000197_random'	37175	Standard
+#		'Un_gl000245'	36651	Standard
+#		'Un_gl000247'	36422	Standard
+#		'9_gl000201_random'	36148	Standard
+#		'Un_gl000235'	34474	Standard
+#		'Un_gl000239'	33824	Standard
+#		'21_gl000210_random'	27682	Standard
+#		'Un_gl000231'	27386	Standard
+#		'Un_gl000229'	19913	Standard
+#		'M'	16571	Vertebrate_Mitochondrial
+#		'Un_gl000226'	15008	Standard
+#		'18_gl000207_random'	4262	Standard
+#-----------------------------------------------
+
+00:00:58	Predicting variants
+00:00:58	Loading sequences for chromosome '1' from file '/TBI/Share/HumanTeam/BioTools/snpeff/snpEff_v4.2/./data/hg19/sequence.1.bin'
+00:01:02	Building sequence tree for chromosome '1'
+00:01:02	Done. Loaded 2063 sequences.
+00:01:02	Loading sequences for chromosome '2' from file '/TBI/Share/HumanTeam/BioTools/snpeff/snpEff_v4.2/./data/hg19/sequence.2.bin'
+00:01:05	Building sequence tree for chromosome '2'
+00:01:05	Done. Loaded 1333 sequences.
+.00:01:06	Loading sequences for chromosome '3' from file '/TBI/Share/HumanTeam/BioTools/snpeff/snpEff_v4.2/./data/hg19/sequence.3.bin'
+....00:01:09	Building sequence tree for chromosome '3'
+00:01:09	Done. Loaded 1096 sequences.
+00:01:09	Loading sequences for chromosome '5' from file '/TBI/Share/HumanTeam/BioTools/snpeff/snpEff_v4.2/./data/hg19/sequence.5.bin'
+.......00:01:12	Building sequence tree for chromosome '5'
+00:01:12	Done. Loaded 958 sequences.
+00:01:12	Loading sequences for chromosome '7' from file '/TBI/Share/HumanTeam/BioTools/snpeff/snpEff_v4.2/./data/hg19/sequence.7.bin'
+...00:01:15	Building sequence tree for chromosome '7'
+00:01:15	Done. Loaded 970 sequences.
+00:01:15	Loading sequences for chromosome '8' from file '/TBI/Share/HumanTeam/BioTools/snpeff/snpEff_v4.2/./data/hg19/sequence.8.bin'
+..........00:01:17	Building sequence tree for chromosome '8'
+00:01:17	Done. Loaded 789 sequences.
+00:01:17	Loading sequences for chromosome '10' from file '/TBI/Share/HumanTeam/BioTools/snpeff/snpEff_v4.2/./data/hg19/sequence.10.bin'
+.00:01:19	Building sequence tree for chromosome '10'
+00:01:19	Done. Loaded 825 sequences.
+00:01:19	Loading sequences for chromosome '11' from file '/TBI/Share/HumanTeam/BioTools/snpeff/snpEff_v4.2/./data/hg19/sequence.11.bin'
+.......00:01:21	Building sequence tree for chromosome '11'
+00:01:21	Done. Loaded 1282 sequences.
+.00:01:21	Loading sequences for chromosome '12' from file '/TBI/Share/HumanTeam/BioTools/snpeff/snpEff_v4.2/./data/hg19/sequence.12.bin'
+.....00:01:23	Building sequence tree for chromosome '12'
+00:01:23	Done. Loaded 1060 sequences.
+00:01:23	Loading sequences for chromosome '13' from file '/TBI/Share/HumanTeam/BioTools/snpeff/snpEff_v4.2/./data/hg19/sequence.13.bin'
+.....00:01:25	Building sequence tree for chromosome '13'
+00:01:25	Done. Loaded 449 sequences.
+.00:01:25	Loading sequences for chromosome '16' from file '/TBI/Share/HumanTeam/BioTools/snpeff/snpEff_v4.2/./data/hg19/sequence.16.bin'
+.....00:01:26	Building sequence tree for chromosome '16'
+00:01:26	Done. Loaded 870 sequences.
+....................00:01:31	Loading sequences for chromosome '17' from file '/TBI/Share/HumanTeam/BioTools/snpeff/snpEff_v4.2/./data/hg19/sequence.17.bin'
+00:01:33	Building sequence tree for chromosome '17'
+00:01:33	Done. Loaded 1147 sequences.
+...............00:01:35	Loading sequences for chromosome '18' from file '/TBI/Share/HumanTeam/BioTools/snpeff/snpEff_v4.2/./data/hg19/sequence.18.bin'
+00:01:36	Building sequence tree for chromosome '18'
+00:01:36	Done. Loaded 314 sequences.
+00:01:36	Loading sequences for chromosome '19' from file '/TBI/Share/HumanTeam/BioTools/snpeff/snpEff_v4.2/./data/hg19/sequence.19.bin'
+................00:01:37	Building sequence tree for chromosome '19'
+00:01:37	Done. Loaded 1471 sequences.
+00:01:37	Loading sequences for chromosome '22' from file '/TBI/Share/HumanTeam/BioTools/snpeff/snpEff_v4.2/./data/hg19/sequence.22.bin'
+.......00:01:38	Building sequence tree for chromosome '22'
+00:01:38	Done. Loaded 464 sequences.
+
+WARNINGS: Some warning were detected
+Warning type	Number of warnings
+INFO_REALIGN_3_PRIME	352
+
+
+00:01:38	Creating summary file: /TBI/Share/HumanTeam/BioPipeline/MyGeneBank_v1/example/test//TN1701D2408.snpeff.html
+........00:01:39	Creating genes file: /TBI/Share/HumanTeam/BioPipeline/MyGeneBank_v1/example/test/TN1701D2408.snpeff.genes.txt
+.00:01:39	done.
+00:01:39	Logging
+00:01:40	Checking for updates...
+......
+
+NEW VERSION!
+	There is a new SnpEff version available: 
+		Version      : 4.3O
+		Release date : 2017-05-21
+		Download URL : http://sourceforge.net/projects/snpeff/files/snpEff_latest_core.zip
+
+.....00:01:42	Done.
+	Total annotated entries : 0
+	Total entries           : 2226
+	Percent                 : 0.00%
+.00:01:42	Done.
+	Total annotated entries : 28
+	Total entries           : 2226
+	Percent                 : 1.26%
+	Errors (bad references) : 0
+..........00:01:43	Done.
+	Total annotated entries : 2133
+	Total entries           : 2226
+	Percent                 : 95.82%
+	Errors (bad references) : 0
+....00:01:43	Done.
+	Total annotated entries : 215
+	Total entries           : 2226
+	Percent                 : 9.66%
+	Errors (bad references) : 0
+....00:01:44	Done.
+	Total annotated entries : 17
+	Total entries           : 2226
+	Percent                 : 0.76%
+....00:01:44	Done.
+	Total annotated entries : 2226
+	Total entries           : 2226
+	Percent                 : 100.00%
+	Errors (bad references) : 0
+..00:01:45	Done.
+	Total annotated entries : 2226
+	Total entries           : 2226
+	Percent                 : 100.00%
+	Errors (bad references) : 0
+.00:01:45	Done.
+	Total annotated entries : 2226
+	Total entries           : 2226
+	Percent                 : 100.00%
+	Errors (bad references) : 0
+Mon May 22 11:28:21 KST 2017

@@ -1,1 +1,1 @@
-# MyGeneBank_Pipeline_v2
+# MyGeneBank_Pipeline
