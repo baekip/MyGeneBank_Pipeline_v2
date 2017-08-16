@@ -80,7 +80,9 @@ my $project_id = $info{project_id};
 my $sh_path = sprintf ('%s/sh_log_file', $result_path);
 my $flag_orig_path = sprintf ('%s/flag_file/', $result_path);
 #my @sample_list = split /\,/, $sample_id;
-my $log_file="$project_path/$project_id\.log.file";
+my $log_path="$project_path/log";
+make_dir($log_path);
+my $log_file="$log_path/$sample_id\.log.file";
 checkDir ($script_path);
 make_dir($result_path);
 make_dir($report_path);
@@ -133,13 +135,13 @@ pipe_arrange ($pipeline, \%pipe_hash);
 
 open my $fh_log, '>', $log_file or die;
 my $startdatestring = localtime();
-print "-------------------------------------------------------\n";
-print "START MGB WGS Pipeline: $startdatestring\n";
-print "-------------------------------------------------------\n";
+print "------------------------------------------------------------------\n";
+print "<Sample Name: $sample_id> START MGB WGS Pipeline: $startdatestring\n";
+print "------------------------------------------------------------------\n";
 
-print $fh_log "-------------------------------------------------------\n";
-print $fh_log "START MGB WGS Pipeline: $startdatestring\n";
-print $fh_log "-------------------------------------------------------\n";
+print $fh_log "------------------------------------------------------------------\n";
+print $fh_log "<Sample Name: $sample_id> START MGB WGS Pipeline: $startdatestring\n";
+print $fh_log "------------------------------------------------------------------\n";
 
 foreach my $row (@pipe_list){
     my $input_path;
@@ -268,7 +270,7 @@ print "-------------------------------------------------------\n";
 print "END MGB WGS Pipeline: $enddatestring\n";
 print "-------------------------------------------------------\n";
 
-print $fh_log "-------------------------------------------------------\n";
-print $fh_log "START MGB WGS Pipeline: $enddatestring\n";
-print $fh_log "-------------------------------------------------------\n";
+print $fh_log "--------------------------------------------------------------\n";
+print $fh_log "<Sample Name: $sample_id> END MGB WGS Pipeline: $enddatestring\n";
+print $fh_log "--------------------------------------------------------------\n";
 close $fh_log;
