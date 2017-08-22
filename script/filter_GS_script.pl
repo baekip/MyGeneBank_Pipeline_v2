@@ -36,8 +36,35 @@ foreach my $rs_tmp (@rs_array){
     push @rs_id_array, $rs;
 }
 #print Dumper ($strand_hash);
-my $rs_id_list = join '|', @rs_id_array;
-my @snpeff_vs_rs = grep (/$rs_id_list/, @snpeff_array);
+#my $rs_id_list = join '|', @rs_id_array;
+#my @snpeff_vs_rs = grep (/$rs_id_list|;$rs_id_list|$rs_id_list;/, @snpeff_array);
+
+#print $rs_id_list."\n";
+my @snpeff_vs_rs;
+foreach my $check_rs (@rs_id_array) {
+#    print $check_rs."\n";
+    push @snpeff_vs_rs, grep (/(\t+|rs+\d;)$check_rs(\t+|\;)/, @snpeff_array);
+}
+
+#foreach (@snpeff_vs_rs) {
+#    print $_."\n";
+#}
+
+#sub read_rs {
+#    my $file =  shift;
+#    my @array;
+#    open my $fh, '<:encoding(UTF-8)', $file or die;
+#    while (my $row = <$fh>){
+#        chomp $row;
+#        if ($row =~ /^#/) {next;}
+#        my ($ch$row = trim($row);
+#        push @array, $row;
+#    }
+#    close $fh;
+#    return @array;
+#}
+#print $snpeff_array[3]."\n";
+
 
 my %nucle_reverse = (
     "A" => "T",
@@ -54,7 +81,7 @@ open my $fh_GS, '>:encoding(utf8)', $GS_out or die;
 foreach my $rs_line (@rs_array){
     my ($rs, $strand, $rs_ref, $rs_alt) =  split /\t/, $rs_line;
 #    my @intersect_snpeff = grep {/$rs/i} @snpeff_array;
-    my @intersect_snpeff = grep {/$rs\t+/i} @snpeff_vs_rs;
+    my @intersect_snpeff = grep {/(\t+|rs+\d;)$rs(\t+|\;)/} @snpeff_vs_rs;
     if (scalar @intersect_snpeff == 1) {
         print $fh_GS "$rs,$rs_ref$rs_alt\n";
     }elsif (scalar @intersect_snpeff == 0){

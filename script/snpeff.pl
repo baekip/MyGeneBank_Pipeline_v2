@@ -150,7 +150,6 @@ printf $fh_sh ("\t\"dbNSFP_LRT_pred\" \\\n");
 printf $fh_sh ("\t\"dbNSFP_MutationTaster_pred\" \\\n");
 printf $fh_sh ("\t\"dbNSFP_GERP___NR\" \\\n");
 printf $fh_sh ("\t\"dbNSFP_GERP___RS\" \\\n");
-
 printf $fh_sh ("\t\"dbNSFP_phastCons100way_vertebrate\" \\\n");
 printf $fh_sh ("\t\"dbNSFP_1000Gp1_AF\" \\\n");
 printf $fh_sh ("\t\"dbNSFP_1000Gp1_AFR_AF\" \\\n");

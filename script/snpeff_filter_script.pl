@@ -55,6 +55,10 @@ foreach my $line (@snpeff_gene_vs_clinvar){
     my $clndbn = $line_array[31];
     my $COSMIC = $line_array[27];
     my $KRG_AF = $line_array[51];
+#    my $clnsig = $line_array[30];
+#    my $clndbn = $line_array[31];
+#    my $COSMIC = $line_array[27];
+#    my $KRG_AF = $line_array[51];
 #    print $chr."\n";
 #    print $line."\n";
 #    print $KRG_AF."\n";

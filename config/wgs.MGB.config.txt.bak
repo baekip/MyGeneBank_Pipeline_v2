@@ -2,20 +2,39 @@
 ################################################################################################################
 #program
 java_1_7          =   /usr/bin/java
+#fastqc            =   /TBI/Share/HumanTeam/BioTools/fastqc/FastQC_v0.10.1/fastqc 
+#isaac             =   /TBI/Tools/Isaac3/iSSAC-build/bin/isaac-align
+#starling          =   /TBI/Tools/isaac_variant_caller/bin/configureWorkflow.pl 
+#qualimap          =   /TBI/Tools/Qualimap/qualimap_v2.2/qualimap
+#delly             =   /TBI/Tools/delly/delly/src/delly 
+#cnvkit            =   cnkit.py
+#cnvkit            =   /usr/local/bin/cnvkit.py
 ################################################################################################################
 
 # vcf requirement configure file
 ################################################################################################################
+#gvcftools         =   /TBI/Tools/gvcftools/bin/extract_variants
 snpeff            =   /TBI/Share/HumanTeam/BioTools/snpeff/snpEff_v4.2/snpEff.jar
 snpsift           =   /TBI/Share/HumanTeam/BioTools/snpeff/snpEff_v4.2/SnpSift.jar
 snpeff_config     =   /TBI/Share/HumanTeam/BioTools/snpeff/snpEff_v4.2/snpEff.config 
 vcf_per_line      =   /TBI/Share/HumanTeam/BioTools/snpeff/snpEff_v4.2/scripts/vcfEffOnePerLine.pl
+bcftools          =   /TBI/Tools/bcftools/bcftools-1.2/bcftools
 bedtools          =   /TBI/Tools/bedtools/current/bin/bedtools
 ################################################################################################################
 
 #################################################################################################################
 # reference
-exac_db           =   /TBI/Share/HumanTeam/BioResource/DBs/EXAC/release0.3/ExAC.r0.3.sites.vep.header.vcf.gz
+#sorted_reference  =   /TBI/Share/HumanTeam/BioResource/iSAAC_Ref/hg19/sorted-reference.xml 
+#ivc_config        =   /TBI/Tools/isaac_variant_caller/etc/ivc_config_default_wgs.ini
+#reference         =   /TBI/Share/HumanTeam/BioResource/hg19/hg19.fa 
+#reference_dict    =   /TBI/Share/HumanTeam/BioResource/hg19/hg19.dict
+#ref_hap           =   /TBI/Share/HumanTeam/BioResource/hg19/hapmap_3.3.hg19.sites.vcf
+#ref_omni          =   /TBI/Share/HumanTeam/BioResource/hg19/1000G_omni2.5.hg19.sites.vcf
+#ref_dbsnp         =   /TBI/Share/HumanTeam/BioResource/hg19/dbsnp_138.hg19.vcf
+#ref_1000g_indel   =   /TBI/Share/HumanTeam/BioResource/hg19/Mills_and_1000G_gold_standard.indels.hg19.vcf
+#1000g_db         =    /TBI/Share/HumanTeam/BioResource/DBs/1000G/phase3/ALL.wgs.1000g.phase3.20130502.sites.vcf.gz
+#esp6500_db        =   /TBI/Share/HumanTeam/BioResource/DBs/ESP6500/ESP6500.vcf.gz
+#exac_db           =   /TBI/Share/HumanTeam/BioResource/DBs/EXAC/release0.3/ExAC.r0.3.sites.vep.header.vcf.gz
 knih_db           =   /TBI/Share/HumanTeam/BioResource/DBs/KNIH/KNIH.BOTH.sort.out.herder.vcf.gz
 cosmic_db         =   /TBI/Share/HumanTeam/BioResource/DBs/COSMICDB/v71/CosmicCodingMuts.anno.vcf.gz 
 KRG1100_db        =   /TBI/Share/HumanTeam/BioResource/DBs/KRGDB/KRG1100_common_variants/total_variants1100_cmm_sort.vcf
@@ -27,15 +46,19 @@ MGB_HG_list_v3    =   /TBI/Share/HumanTeam/BioPipeline/MyGeneBank_v2/resource/He
 MGB_GS_list       =   /TBI/Share/HumanTeam/BioPipeline/MyGeneBank_v2/resource/GeneStyle_Direct.txt
 MGB_clinvar_list  =   /TBI/Share/HumanTeam/BioPipeline/MyGeneBank_v2/resource/rs.test.list
 snpeff_db         =   hg19 
+#access_bed        =   /TBI/Share/HumanTeam/BioTools/cnvkit/data/access-10kb.hg19.bed
+#refFlat_txt       =   /TBI/Share/HumanTeam/BioTools/cnvkit/data/refFlat.txt
+#excludeTemplates  =   /TBI/Tools/delly/delly/excludeTemplates/human.hg19.excl.tsv
 #################################################################################################################
-
-#################################################################################################################
-# input infor
 dev_path          =    /TBI/Share/HumanTeam/BioPipeline/MyGeneBank_v2/
 project_path      =    /TBI/Share/HumanTeam/BioProject/MGB_V2_Test/ 
 rawdata_path      =    /TBI/Share/HumanTeam/BioProject/MGB_V2_Test/rawdata 
 result_path       =    /TBI/Share/HumanTeam/BioProject/MGB_V2_Test/result 
+report_path       =    /TBI/Share/HumanTeam/BioProject/MGB_V2_Test/report 
 read_length       =    150
-project_id        =    MGB_V2_Test 
+sample_id         =    Sample01,Sample02,Sample03 
+project_id        =    MGB_Test 
+delivery_tbi_id   =    Delivery01:Sample01:.,Delivery02:Sample02:.,Delivery03:Sample03:. 
+#isaac_memory      =    60 
 threads           =    8
 ###############################################################################################################

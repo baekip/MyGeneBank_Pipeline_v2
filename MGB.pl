@@ -74,7 +74,7 @@ my $script_path = "$pipeline_path/script/";
 my $project_path = $info{project_path};
 my $rawdata_path = $info{rawdata_path};
 my $result_path = $info{result_path};
-my $report_path = $info{report_path};
+#my $report_path = $info{report_path};
 my $project_id = $info{project_id};
 #my $sample_id = $info{sample_id};
 my $sh_path = sprintf ('%s/sh_log_file', $result_path);
@@ -82,10 +82,9 @@ my $flag_orig_path = sprintf ('%s/flag_file/', $result_path);
 #my @sample_list = split /\,/, $sample_id;
 my $log_path="$project_path/log/";
 make_dir($log_path);
-my $log_file="$log_path/$sample_id\.log.file";
 checkDir ($script_path);
 make_dir($result_path);
-make_dir($report_path);
+#make_dir($report_path);
 make_dir($sh_path);
 #make_dir($flag_orig_path);
 
@@ -108,6 +107,7 @@ chomp $indate;
 trim ($indate);
 print "#############################################################\n";
 
+my $log_file="$log_path/$sample_id\.log.file";
 my @sample_list;
 push @sample_list, $sample_id;
 #############################################################
