@@ -24,7 +24,7 @@ my %info;
 read_config ($config, \%info);
 $output="$output/../../../MGB_result/$sample.$indate/";
 if ( -d $output ) {
-    `rm -f $output`
+    `rm -rf $output`
 }
 my $cmd_mkdir = "mkdir -p $output";
 system ($cmd_mkdir);

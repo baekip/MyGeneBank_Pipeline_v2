@@ -1,4 +1,4 @@
-awk '{if ($1 == "chr9:100556109") print $1,$2,$3,$4 }' /TBI/Share/HumanTeam/BioProject/MGB_V2_Test/rawdata/KPGP-00265/KPGP-00265.txt >> HG_V2.match.txt
+awk '{if ($1 == "chr9:100556109") print $1,$2,$3,$4 }' /TBI/Share/HumanTeam/BioProject/MGB_V2_Test/rawdata/KPGP-00265/KPGP-00265.txt > HG_V2.match.txt
 awk '{if ($1 == "chr14:36649246") print $1,$2,$3,$4 }' /TBI/Share/HumanTeam/BioProject/MGB_V2_Test/rawdata/KPGP-00265/KPGP-00265.txt >> HG_V2.match.txt
 awk '{if ($1 == "chr1:159682233") print $1,$2,$3,$4 }' /TBI/Share/HumanTeam/BioProject/MGB_V2_Test/rawdata/KPGP-00265/KPGP-00265.txt >> HG_V2.match.txt
 awk '{if ($1 == "chr17:11922904") print $1,$2,$3,$4 }' /TBI/Share/HumanTeam/BioProject/MGB_V2_Test/rawdata/KPGP-00265/KPGP-00265.txt >> HG_V2.match.txt

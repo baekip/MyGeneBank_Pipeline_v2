@@ -76,7 +76,7 @@ printf $fh_sh ("\t-c %s \\\n", $snpeff_config);
 printf $fh_sh ("\t-v %s \\\n", $snpeff_db);
 printf $fh_sh ("\t-s %s/%s.snpeff.html \\\n", $output_path, $sample);
 printf $fh_sh ("\t-o vcf \\\n"); 
-printf $fh_sh ("\t %s/%s.sorted.genome.PASS.vcf \| \\\n\n", $input_path, $sample);
+printf $fh_sh ("\t %s/%s*.vcf \| \\\n\n", $input_path, $sample);
 
 printf $fh_sh ("%s -Xmx%dg -Djava.io.tmpdir=%s \\\n", $java, $threads, $tmp_dir);
 printf $fh_sh ("\t-jar %s \\\n", $snpsift);

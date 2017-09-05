@@ -50,7 +50,7 @@ print $fh_sh "#\$ -pe smp $threads \n";
 #print $fh_sh "#\$ -q $queue \n";
 print $fh_sh "date\n";
 
-printf $fh_sh ("%s intersect -a %s -b %s -header > %s\n", $program, "$input_path/$sample.sorted.genome.PASS.vcf", $gene_bed, "$output_path/$sample.bedtools.MGB.vcf");
+printf $fh_sh ("%s intersect -a %s -b %s -header > %s\n", $program, "$input_path/$sample*.vcf", $gene_bed, "$output_path/$sample.bedtools.MGB.vcf");
 
 print $fh_sh "date\n";
 close $fh_sh;
