@@ -47,10 +47,10 @@ use lib dirname(abs_path $0) . '/library';
 use Utils qw (read_config checkFile make_dir checkDir trim);
 use Queue qw (CheckQsub pipe_arrange program_run);
 
-my $script_path = dirname(abs_path $0);
-my $config = "$script_path/config/wgs.MGB.config.txt";
+my $pipeline_path = dirname(abs_path $0);
+my $config = "$pipeline_path/config/wgs.MGB.config.txt";
 checkFile($config);
-my $pipeline = "$script_path/config/wgs.MGB.pipeline.txt";
+my $pipeline = "$pipeline_path/config/wgs.MGB.pipeline.txt";
 checkFile($pipeline);
 
 my $help;
@@ -72,26 +72,18 @@ read_config ($config, \%info);
 #############################################################
 #Requirement config source 
 #############################################################
-
-my $pipeline_path = dirname (abs_path $0);
 my $script_path = "$pipeline_path/script/";
 my $project_path = $info{project_path};
 my $rawdata_path = $info{rawdata_path};
 my $result_path = $info{result_path};
-#my $report_path = $info{report_path};
 my $project_id = $info{project_id};
-#my $sample_id = $info{sample_id};
 my $sh_path = sprintf ('%s/sh_log_file', $result_path);
 my $flag_orig_path = sprintf ('%s/flag_file/', $result_path);
-#my @sample_list = split /\,/, $sample_id;
 my $log_path="$project_path/log/";
 make_dir($log_path);
 checkDir ($script_path);
 make_dir($result_path);
-#make_dir($report_path);
 make_dir($sh_path);
-#make_dir($flag_orig_path);
-
 
 #############################################################
 #STD IN config 
