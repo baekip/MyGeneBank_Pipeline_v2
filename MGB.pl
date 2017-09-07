@@ -89,7 +89,7 @@ make_dir($sh_path);
 #STD IN config 
 #############################################################
 print "#############################################################\n";
-print "#              MGB.pl -- MGB WGS pipeline script            #\n";
+print "#             MGB.pl -- MGB WGS pipeline V2 script          #\n";
 print "#############################################################\n\n";
 print "1. 샘플이름:";
 my $sample_id = <STDIN>;
