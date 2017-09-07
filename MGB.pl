@@ -47,8 +47,12 @@ use lib dirname(abs_path $0) . '/library';
 use Utils qw (read_config checkFile make_dir checkDir trim);
 use Queue qw (CheckQsub pipe_arrange program_run);
 
-my $config = '/TBI/Share/HumanTeam/BioPipeline/MyGeneBank_v2/config/wgs.MGB.config.txt';
-my $pipeline = '/TBI/Share/HumanTeam/BioPipeline/MyGeneBank_v2/config/wgs.MGB.pipeline.txt';
+my $script_path = dirname(abs_path $0);
+my $config = "$script_path/config/wgs.MGB.config.txt";
+checkFile($config);
+my $pipeline = "$script_path/config/wgs.MGB.pipeline.txt";
+checkFile($pipeline);
+
 my $help;
 GetOptions (
 #    'config=s' => \$config,
@@ -208,7 +212,7 @@ foreach my $row (@pipe_list){
     my $flag_path = sprintf ("%s/%s/", $flag_orig_path, $pipe_hash{$order});
     make_dir($flag_path);
     my $flag_file = sprintf ("%s/%s_flag.txt", $flag_path, $pipe_hash{$order});
-    open my $fh_flag, '>>', $flag_file or die;
+    open my $fh_flag, '>', $flag_file or die;
     if ($cluster eq 'sample'){ 
         foreach my $sample (@run_sample){
             if ($type eq 'private'){
